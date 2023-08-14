@@ -1,12 +1,13 @@
 package kibong.proxy;
 
 import kibong.proxy.config.AppV1Config;
+import kibong.proxy.config.AppV2Config;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
-@Import(AppV1Config.class) //하지 않으면 자동 컴포넌트 스캔 대상이 됨
-@SpringBootApplication(scanBasePackages = "kibong.proxy.app")
+@Import({AppV2Config.class, AppV1Config.class}) //하지 않으면 자동 컴포넌트 스캔 대상이 됨
+@SpringBootApplication(scanBasePackages = "kibong.proxy.app.v2")
 public class ProxyApplication {
 
     public static void main(String[] args) {
