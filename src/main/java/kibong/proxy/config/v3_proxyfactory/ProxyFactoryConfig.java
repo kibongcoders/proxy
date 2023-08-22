@@ -1,6 +1,6 @@
 package kibong.proxy.config.v3_proxyfactory;
 
-import kibong.proxy.app.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.logtrace.LogTrace;
 import kibong.proxy.app.v1.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.aop.Advisor;

@@ -1,4 +1,4 @@
-package kibong.proxy.app.Trace;
+package kibong.proxy.Trace;
 
 import lombok.Getter;
 

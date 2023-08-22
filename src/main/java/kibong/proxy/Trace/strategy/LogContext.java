@@ -1,7 +1,7 @@
-package kibong.proxy.app.Trace.strategy;
+package kibong.proxy.Trace.strategy;
 
-import kibong.proxy.app.Trace.TraceStatus;
-import kibong.proxy.app.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.TraceStatus;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

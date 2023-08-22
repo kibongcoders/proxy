@@ -1,6 +1,6 @@
 package kibong.proxy.config.v2_proxy;
 
-import kibong.proxy.app.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.logtrace.LogTrace;
 import kibong.proxy.app.v2.OrderControllerV2;
 import kibong.proxy.app.v2.OrderRepositoryV2;
 import kibong.proxy.app.v2.OrderServiceV2;

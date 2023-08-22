@@ -1,7 +1,7 @@
 package kibong.proxy.config.v1_proxy.proxy_interface;
 
-import kibong.proxy.app.Trace.TraceStatus;
-import kibong.proxy.app.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.TraceStatus;
+import kibong.proxy.Trace.logtrace.LogTrace;
 import kibong.proxy.app.v1.OrderControllerV1;
 import lombok.RequiredArgsConstructor;
 

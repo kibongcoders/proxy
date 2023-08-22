@@ -1,7 +1,7 @@
 package kibong.proxy.config.v3_proxyfactory;
 
-import kibong.proxy.app.Trace.TraceStatus;
-import kibong.proxy.app.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.TraceStatus;
+import kibong.proxy.Trace.logtrace.LogTrace;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 

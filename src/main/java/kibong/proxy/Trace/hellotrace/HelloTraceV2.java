@@ -1,7 +1,7 @@
-package kibong.proxy.app.Trace.hellotrace;
+package kibong.proxy.Trace.hellotrace;
 
-import kibong.proxy.app.Trace.TraceId;
-import kibong.proxy.app.Trace.TraceStatus;
+import kibong.proxy.Trace.TraceId;
+import kibong.proxy.Trace.TraceStatus;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

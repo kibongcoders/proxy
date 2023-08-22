@@ -1,7 +1,7 @@
 package kibong.proxy.config.v2_dynamicproxy.handler;
 
-import kibong.proxy.app.Trace.TraceStatus;
-import kibong.proxy.app.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.TraceStatus;
+import kibong.proxy.Trace.logtrace.LogTrace;
 import org.springframework.util.PatternMatchUtils;
 
 import java.lang.reflect.InvocationHandler;

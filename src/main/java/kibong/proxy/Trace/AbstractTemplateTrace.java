@@ -1,6 +1,6 @@
-package kibong.proxy.app.Trace;
+package kibong.proxy.Trace;
 
-import kibong.proxy.app.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.logtrace.LogTrace;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

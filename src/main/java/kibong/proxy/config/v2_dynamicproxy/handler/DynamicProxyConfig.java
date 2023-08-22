@@ -1,10 +1,7 @@
 package kibong.proxy.config.v2_dynamicproxy.handler;
 
-import kibong.proxy.app.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.logtrace.LogTrace;
 import kibong.proxy.app.v1.*;
-import kibong.proxy.config.v1_proxy.proxy_interface.OrderControllerInterfaceProxy;
-import kibong.proxy.config.v1_proxy.proxy_interface.OrderRepositoryInterfaceProxy;
-import kibong.proxy.config.v1_proxy.proxy_interface.OrderServiceInterfaceProxy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

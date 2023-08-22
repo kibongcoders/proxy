@@ -1,13 +1,12 @@
 package kibong.proxy.config.v5_autoproxy;
 
-import kibong.proxy.app.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.logtrace.LogTrace;
 import kibong.proxy.config.AppV1Config;
 import kibong.proxy.config.AppV2Config;
 import kibong.proxy.config.v3_proxyfactory.LogAdvice;
 import org.springframework.aop.Advisor;
 import org.springframework.aop.aspectj.AspectJExpressionPointcut;
 import org.springframework.aop.support.DefaultPointcutAdvisor;
-import org.springframework.aop.support.NameMatchMethodPointcut;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

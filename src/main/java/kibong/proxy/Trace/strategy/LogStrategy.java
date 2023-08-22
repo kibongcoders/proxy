@@ -1,4 +1,4 @@
-package kibong.proxy.app.Trace.strategy;
+package kibong.proxy.Trace.strategy;
 
 public interface LogStrategy<T> {
 

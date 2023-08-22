@@ -1,7 +1,7 @@
 package kibong.proxy.config.v2_proxy.proxy_class;
 
-import kibong.proxy.app.Trace.TraceStatus;
-import kibong.proxy.app.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.TraceStatus;
+import kibong.proxy.Trace.logtrace.LogTrace;
 import kibong.proxy.app.v2.OrderRepositoryV2;
 
 public class OrderRepositoryClassProxy extends OrderRepositoryV2 {

@@ -1,6 +1,6 @@
 package kibong.proxy.config.v4_postprocessor;
 
-import kibong.proxy.app.Trace.logtrace.LogTrace;
+import kibong.proxy.Trace.logtrace.LogTrace;
 import kibong.proxy.config.v3_proxyfactory.LogAdvice;
 import kibong.proxy.config.v4_postprocessor.postprocessor.PackageLogTraceProxyPostProcessor;
 import org.springframework.aop.Advisor;

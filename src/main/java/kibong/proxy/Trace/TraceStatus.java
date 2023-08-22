@@ -1,4 +1,4 @@
-package kibong.proxy.app.Trace;
+package kibong.proxy.Trace;
 
 public class TraceStatus {
     private TraceId traceId;

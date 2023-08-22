@@ -1,6 +1,6 @@
-package kibong.proxy.app.Trace.logtrace;
+package kibong.proxy.Trace.logtrace;
 
-import kibong.proxy.app.Trace.TraceStatus;
+import kibong.proxy.Trace.TraceStatus;
 
 public interface LogTrace {
 

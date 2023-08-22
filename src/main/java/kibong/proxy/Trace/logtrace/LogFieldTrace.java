@@ -1,7 +1,7 @@
-package kibong.proxy.app.Trace.logtrace;
+package kibong.proxy.Trace.logtrace;
 
-import kibong.proxy.app.Trace.TraceId;
-import kibong.proxy.app.Trace.TraceStatus;
+import kibong.proxy.Trace.TraceId;
+import kibong.proxy.Trace.TraceStatus;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
